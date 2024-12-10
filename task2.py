@@ -6,8 +6,8 @@ Check the name against a tuple that contains a series of names to see if it is a
 logical operators
 (2 points)
 
-inputs:
-str name
+nputs:
+str namei
 
 outputs:
 "That name is in the list"
@@ -23,3 +23,10 @@ That name is on the list
 """
 
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
+
+name = input("Enter a name: ")
+
+if name in nameList: 
+    print("That name is on the list")
+else:
+    print("That name is not on the list")
